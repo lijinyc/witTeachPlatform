@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>注册第三步</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/register.css">
+    <link rel="stylesheet" type="text/css" href="styles/validationEngineJquery.css">
+    <link rel="stylesheet" type="text/css" href="styles/jquery.reveal.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery.reveal.js"></script>
+    <script type="text/javascript" src="scripts/jquery.placeholder.js"></script>
+</head>
+<body>
+<div class="logContent">
+    <!--logo-->
+    <div class="logLogoLeft">
+        <div class="logLogoLeCont">
+            <p class="logLLP1">
+                <a href="#"><img src="images/3_5.png"></a>
+            </p>
+
+            <p class="logLLP2"><a href="#">注册</a></p>
+
+            <p style="clear: both;"></p>
+        </div>
+    </div>
+    <!--中间内容-->
+    <div class="registerCon">
+        <div class="registerDiv">
+            <div class="regImg"><img src="images/5_2.png"></div>
+            <div class="regParentTable threeTable regTable ">
+                <form class="formValidation">
+                    <table>
+                        <colgroup>
+                            <col width="100">
+                            <col width="340">
+                        </colgroup>
+                        <tr>
+                            <td>
+                                <p>真&nbsp;实&nbsp;姓&nbsp;&nbsp;名：</p>
+                            </td>
+                            <td colspan="3">
+                                <input type="text" class="validate[required] text-input">
+                                <span>*</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</p>
+                            </td>
+                            <td colspan="3" class="regSex">
+                                <p class="sexLeft"><input type="radio" value="1" name="bm" checked="checked"></p>
+
+                                <p class="sexRight">男</p>
+
+                                <p class="sexLeft"><input type="radio" value="2" name="bm"></p>
+
+                                <p class="sexRight">女</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>手&nbsp;&nbsp;&nbsp;&nbsp;机&nbsp;&nbsp;&nbsp;号：</p>
+                            </td>
+                            <td colspan="3">
+                                <input type="text" class="validate[required,custom[phone]]  text-input">
+                                <span>*</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>家&nbsp;庭&nbsp;住&nbsp;&nbsp;址：</p>
+                            </td>
+                            <td colspan="3">
+                                <input type="text">
+                            </td>
+                        </tr>
+
+                        <tr class="relationSelectTr1 cloneChildren1">
+                            <td>
+                                <p>关联孩子0<span style="color: #605b5b;">1</span>：</p>
+                            </td>
+                            <td colspan="3" class="relation1">
+                                <a href="" class="big-link" data-reveal-id="relationChildren"> <input type="text"></a>
+                                <img src="images/6_3.png" class="relationPlus">
+                            </td>
+                        </tr>
+                        <!--选择关联孩子后才会出现 -->
+                        <tr class="cloneChildren2 cloneDisplay">
+                            <td></td>
+                            <td class="relationSelect">
+                                <p>您是孩子的：</p>
+                                <select class="select validate[required]">
+                                    <option value="">选择关系</option>
+                                    <option value="option1">父亲</option>
+                                    <option value="option2">母亲</option>
+                                    <option value="option3">其他关系</option>
+                                </select>
+                                <span>*</span>
+                                <div class="relationInput relatIn"><input type="text"></div>
+                            </td>
+                        </tr>
+
+                        <tr class="cloneEnd">
+                            <td colspan="4" class="relationPrompt"><p>(提示：请先给孩子注册后再进行关联)</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="studentImg">
+                                <a href="registerSuccess.html"><img src="images/6_2.png" class="studentImg1"></a>
+                                <a href="registerSuccess.html"><img src="images/5_3.png" class="studentImg2"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <!--关联孩子（弹出框）-->
+        <div id="relationChildren" class="reveal-modal individualPopup"
+             style="border: 1px solid #c51d1d; width:618px; top: 230px;">
+            <div class='body'>
+                <div class="lookup parentKup">
+                    <input type="text">
+                    <img src="images/5_6.png" class="parentImg">
+                </div>
+                <div class="choiceTable parentTable">
+                    <table>
+                        <colgroup>
+                            <col width="10%">
+                            <col width="10%">
+                            <col width="10%">
+                        </colgroup>
+                        <tr style="background-color: #dcdcdc">
+                            <th>用户名</th>
+                            <th>姓名</th>
+                            <th>注册时间</th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/5_7.png">123252362</td>
+                            <td>王小小</td>
+                            <td>2016-6-7 15:40</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/5_7.png">123252362</td>
+                            <td>王小小</td>
+                            <td>2016-6-7 15:40</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/5_7.png">123252362</td>
+                            <td>王小小</td>
+                            <td>2016-6-7 15:40</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/5_7.png">123252362</td>
+                            <td>王小小</td>
+                            <td>2016-6-7 15:40</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/5_7.png">123252362</td>
+                            <td>王小小</td>
+                            <td>2016-6-7 15:40</td>
+                        </tr>
+                    </table>
+                    <!--分页-->
+                    <div class="paging">
+                        <ul>
+                            <li class="pagingBack"><span><</span> 上一页</li>
+                            <li class="removeBack">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li class="pagingNumber" style="color: #ccc;">. . .</li>
+                            <li>666</li>
+                            <li class="paging3Li">下一页 <span style="color: #aaa;">></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="close-reveal-modal popTit">
+                <div class='key'>
+                    <a class="closePopup end" data-dismiss="modal"><span>返回</span></a>
+                    <span>关联孩子</span>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script>
+        $(function () {
+            //让input、textarea中的placeholder支持IE
+            $('input,textarea').placeholder({customClass: 'my-placeholder'});
+        });
+    </script>
+    <!--底部版权-->
+    <div class="botCopyright">
+        <div class="botCopyCont">
+            <p>版权所有：北京飞利信科技股份有限公司</p>
+
+            <p>Copyright @2016 京ICP备00000000号-0</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+<script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>
+

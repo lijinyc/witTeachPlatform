@@ -1,0 +1,88 @@
+.contInput {
+    margin-top: 30px;
+}
+
+.contInput div {
+    margin-bottom: 30px;
+}
+
+.contInputImg {
+    text-align: center;
+}
+
+.contInputImg img {
+    margin-top: 80px;
+}
+
+.typeText {
+    width: 590px;
+    *width: 580px;
+    height: 30px;
+    line-height: 30px;
+    *margin-left: 3px;
+}
+
+.contInput span {
+    margin-left: 8px;
+    margin-right: 6px;
+}
+.contInpDiv1Left{
+    float: left;
+}
+.contInpDiv1Right{
+    float: right;
+    margin-top: 7px;
+}
+.contInpDiv1 label {
+    *float: left;
+    *margin-top: 5px;
+}
+.contInpDiv1{
+    overflow: auto;
+}
+.contInpDiv2{
+    clear: both;
+}
+.contInpDiv2Left{
+    float: left;
+}
+.contInpDiv2Right{
+    float: right;
+    width: 653px;
+    height: 400px;
+}
+/*公告详情*/
+.detailsCont{
+
+}
+.detailsContTit{
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+}
+.releasePerson{
+    text-align: center;
+    margin-bottom: 35px;
+    color: #333;
+}
+.releasePerson span{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.releasePerson a img{
+    vertical-align: middle;
+}
+.relPerImg1 img{
+    margin-left: 20px;
+}
+.relPerImg2 img{
+    margin-left: 15px;
+}
+.detContentWord{
+    line-height: 2.5;
+    color: #333;
+}
+.detContentWord p{
+    margin-top: 30px;
+}

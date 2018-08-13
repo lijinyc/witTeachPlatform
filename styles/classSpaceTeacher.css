@@ -1,0 +1,267 @@
+.conOne {
+    margin-top: 10px;
+}
+
+.contOneDiv{
+    width: 733px;
+    *width:723px;
+    float: left;
+}
+
+.classNotice {
+    width: 414px;
+    *width:400px;
+    float: left;
+    margin-right: 41px;
+}
+
+.conNWord {
+    font-size: 18px;
+    float: left;
+}
+
+.conNCli {
+    float: right;
+}
+
+.sharePublish {
+    width: 226px;
+    *width:226px;
+    float: left;
+    margin-right: 40px;
+}
+
+.conUl1 {
+    clear: both;
+    overflow: auto;
+}
+.conUl1 ul li a:hover{
+    color: #0980f0;
+}
+
+.conUlP {
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.conUlP1 {
+    background: url("../images/1_6.png") no-repeat;
+    width: 39px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.conUlP2 {
+    background: url("../images/1_7.png") no-repeat;
+    width: 39px;
+    height: 20px;
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+.conUlWord {
+    width: 351px;
+    float: right;
+}
+
+.conUlWordTitle {
+    font-weight: 600;
+}
+.conUlWordTitle a{
+    color: #585858;
+}
+
+.conUlWordCon {
+    margin-top: 10px;
+}
+.conUlWordCon a{
+    color: #8d8d8d;
+}
+.conUl1 ul li {
+    border-bottom: 1px dashed #e1e1e1;
+    overflow: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.conUl2 {
+    clear: both;
+    padding-top: 15px;
+}
+.conUl2 a{
+    color: #585858;
+}
+.conUl2 a:hover{
+    color: #0980f0;
+}
+
+.conUl2 img{
+    margin-right: 5px;
+}
+
+.conUl2 ul li {
+    line-height: 2.3;
+}
+
+.newestKQImg {
+    float: left;
+    margin-top: 14px;
+    margin-right: 17px;
+}
+
+.newestWord {
+    float: right;
+    font-weight: 600;
+    height: 64px;
+    margin-top: 9px;
+    overflow: hidden;
+    width: 352px;
+    *width:340px;
+    color: #585858;
+}
+
+.newestWord span {
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.scorePublish {
+    margin-top: 15px;
+    *margin-top: 16px;
+}
+
+/*right开始  班级空间老师（最近访问）*/
+.recentVisit {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: auto;
+    margin-top: 15px;
+    *padding-bottom: 15px;
+}
+
+.recentVisit div {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.recentVisit ul {
+    margin-left: 13px;
+}
+
+.recentVisit ul li {
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 15px
+}
+
+.recentVisit ul li p {
+    text-align: center;
+    color: #585858;
+}
+.recentName {
+    font-weight: 600;
+}
+.recentName a{
+    color: #585858;
+}
+.recentName a:hover{
+    color: #0980f0;
+}
+/*right结束*/
+
+.qualityCourse {
+    border-top: 2px solid #9ac600;
+    width: 259px;
+    float: left;
+    overflow: auto;
+    clear: both;
+    margin-top: 20px;
+}
+.qualityCourse ul{
+    color: #585858;
+}
+.qualityImg {
+    float: left;
+}
+
+.qualityWord {
+    float: right;
+    width: 139px;
+    line-height: 1.7;
+}
+
+.qualityCourse ul li {
+    border-bottom: 2px solid #f5f5f5;
+    overflow: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.qualityCourse ul li:hover{
+   background-color: #efefef;
+}
+.storyWall {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 391px;
+}
+
+.storyCont {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #efefef;
+    margin-top: -4px;
+    *margin-top: 0px;
+}
+
+.storyTitle {
+    border-bottom: 1px dashed #e1e1e1;
+    overflow: auto;
+}
+
+.storyTitle div {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.storyTitle a > img {
+    float: right;
+    margin-top: 24px;
+}
+
+.storyCTit {
+    font-weight: 600;
+}
+
+.storyCTit span {
+    margin-left: 20px;
+}
+
+.storyCImg img {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.storyC ul{
+    height: 584px;
+    *height: 560px;
+    overflow: hidden;
+    color: #585858;
+}
+
+.storyC ul li {
+    margin-top: 10px;
+    border-bottom: 1px dashed #e1e1e1;
+    padding-bottom: 10px;
+}
+
+.storyC ul li > p {
+    line-height: 2;
+}

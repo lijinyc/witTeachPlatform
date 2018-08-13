@@ -1,0 +1,361 @@
+.personTitle ul {
+    float: left;
+}
+
+.personTitle ul li {
+    border: 0 solid #fff;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    width: 74px;
+}
+
+.personTitle ul li a {
+    color: #747474;
+}
+
+.personTitle ul li a:hover {
+    color: #000;
+}
+
+.personQuery {
+    clear: both;
+    padding-top: 20px;
+    *padding-top: 10px;
+    margin-bottom: 60px;
+}
+
+.personQuery p {
+    float: left;
+}
+
+.personQuery input {
+    height: 30px;
+    line-height: 30px;
+    *margin-top: -1px;
+    width: 200px;
+    margin-right: 5px;
+    border: 1px solid #cacaca;
+}
+
+.personQuery img {
+    cursor: pointer;
+}
+
+
+.personQuery select {
+    *margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 65px;
+}
+
+.personTab {
+    clear: both;
+
+    padding-bottom: 40px;
+}
+
+.personTab table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ededed;
+    border-bottom: 0px;
+}
+
+.personTab table tr {
+    height: 40px;
+
+}
+
+.personTab table tr input {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.personTab table tr th {
+    background-color: #ebebeb;
+    color: #505050;
+}
+
+.personTab table tr td {
+    border-bottom: 1px solid #ededed;
+    color: #585858;
+    position: relative;
+    *position: inherit;
+}
+
+.personTab table tr img {
+    cursor: pointer;;
+}
+
+.cancelImg {
+    position: absolute;
+    margin-left: 2px;
+    display: none;
+}
+
+.addRemarks {
+    border: 1px solid #fff;
+}
+
+/*家长信息*/
+.personTab p {
+    margin-bottom: 8px;
+}
+
+.relationship {
+    margin-top: 28px;
+}
+
+.infoTab table tr td {
+    padding-top: 5px;
+}
+
+.classmateTd input {
+    width: 100px !important;
+    border: 0px;
+}
+
+.classmateTd img {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.classNameImg {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -27px;
+}
+
+.classTeachImg {
+    margin-left: 5px;
+    position: absolute;
+}
+
+/*同班老师*/
+.classmateTd {
+    text-align: left;
+    padding-left: 36px;
+}
+
+.supervise {
+    float: right;
+}
+
+.supervise img {
+    *margin-top: 7px;
+}
+
+.classDivHide {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    clear: both;
+    display: none;
+    height: 79px;
+    margin-left: -91px;
+    *margin-left: -105px;
+    position: absolute;
+    /*top: 20px;*/
+    top: 18px;
+    width: 107px;
+    z-index: 2;
+}
+
+.supervise3 {
+    display: none;
+    position: absolute;
+    border: 1px solid #e5e5e5;
+    margin-left: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 20px;
+    line-height: 20px;
+    right: 12px;
+    /*top: 129px;;*/
+    cursor: pointer;
+}
+
+.classTab {
+    padding-top: 5px;
+}
+
+.classTab table {
+    position: relative;
+}
+
+.classTa {
+    margin-left: 48px;
+    *margin-left: 45px;
+    *float: left;
+}
+
+.classDivHide table tr {
+    text-align: left;
+}
+
+.classDivHide table tr img {
+    margin-left: 10px;
+}
+
+.classDivHide table tr td {
+    border: 0px;
+}
+
+.classDivHide table {
+    border: 0;
+}
+
+.classDivHideTrBack {
+    background-color: #ed802c;
+}
+
+.classDivHideTrBack a {
+    color: #fff;
+}
+
+.supervise {
+    display: none;
+}
+
+.subjectUl {
+  *margin-top: 80px;;
+}
+
+.subjectUl li {
+    float: left;
+    width: 105px;
+    *width: 125px;
+    padding-left: 24px;
+    *padding-left: 15px;
+}
+
+.subjectUl li input {
+    float: left;
+    line-height: 32px;
+    height: 32px;
+    width: 15px;
+}
+
+.subjectUl li p {
+    float: left;
+    color: #605b5b;
+    font-size: 15px;
+    margin-top: 4px;;
+}
+
+.personnelTit {
+    width: 475px;
+    right: -1px !important;
+    border-bottom: 1px solid #eaeaea;
+}
+.personnelTit .key{
+    text-align: center;
+}
+.personnelTit span{
+    line-height: 39px;
+    width: 287px;
+    text-align: right;
+    margin-right: 119px ;
+}
+
+/*邀请加入*/
+.joinQuery {
+    margin-bottom: 60px;
+    padding-top: 20px;
+    clear: both;
+}
+
+.joinQueryDiv1 {
+    float: left;
+}
+
+.joinQuery img {
+    cursor: pointer;
+}
+
+.joinQuery p {
+    float: left;
+}
+
+.joinQuery input {
+    height: 31px;
+    line-height: 31px;
+    width: 200px;
+    border: 1px solid #d3d3d3;
+    border-right: 0px;
+}
+
+.joinQuery select {
+    margin-right: 5px;
+    width: 73px;
+    background-color: #eee;
+    *background-color: #fff;
+    *width: 70px;
+    border: 1px solid #d3d3d3;
+    padding-left: 9px;
+    height: 33px;
+    line-height: 33px;
+}
+
+.joinQueryDiv2 {
+    float: right;
+}
+
+.joinQueryCont {
+    border: 1px solid #d9d9d9;
+    height: 402px;
+}
+
+.joinQueryCont div {
+    width: 47%;
+    border: 1px solid #ebebeb;
+    height: 390px;
+    margin: 5px;
+    overflow: auto;
+}
+
+.joinQueryContL {
+    float: left;
+}
+
+.joinQueryContL ul li {
+    cursor: pointer;
+}
+
+.joinQueryContR {
+    float: right;
+}
+
+.joinQueryCont ul li img {
+    vertical-align: middle;
+}
+
+.joinQueryCont ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.joinQueryContL ul li:hover {
+    background-color: #ffe4dd;
+}
+
+.deleteLi {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.joinQueryP1 input {
+    *margin-top: -1px;
+    *height: 24px;
+    *line-height: 24px;
+    *margin-left: 5px;
+}
+
+.joinQueryP3 img {
+    *width: 35px;
+}

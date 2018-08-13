@@ -1,0 +1,95 @@
+.notTitle ul{
+    float: left;
+}
+.notTitle ul li a{
+    color: #747474;
+}
+.notTitle ul li a:hover{
+    color: #000;
+}
+.notTitle ul li span{
+    color: #fff;
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url("../images/7_2.png") no-repeat;
+}
+.notTitle ul li span p{
+    font-size: 12px;
+    margin-top: -7px;
+}
+.notTitle ul li{
+    border: 0 solid #fff;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    width: 74px;
+}
+.notTitleRight{
+    float: right;
+    margin-top: 6px;
+}
+
+/*开始*/
+.notCont{
+    clear: both;
+    margin-top: 40px;
+}
+.notContUl{
+    margin-bottom: 80px;
+}
+.notContUl li a:hover{
+    color: #0980f0;
+}
+.notContDiv1{
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+    text-align: center;
+}
+.notContDiv1P1{
+    background:url("../images/1_6.png") no-repeat scroll 0 0;
+    font-size: 12px;
+    height: 20px;
+    width: 39px;
+}
+.notContDiv1P2{
+    background:url("../images/1_7.png") no-repeat scroll 0 0;
+    font-size: 12px;
+    height: 20px;
+    margin-top: -4px;
+    width: 39px;
+}
+.notContDivWord{
+    float: right;
+    margin-right: 5px;
+    width: 639px;
+}
+.notContDivTitle img{
+    vertical-align: middle;
+}
+.notContDivTitle a{
+    color: #585858;
+}
+.notContDivCon {
+    margin-top: 10px;
+}
+.notContDivCon a{
+    color: #8d8d8d;
+}
+.issuer{
+    color: #b8b8b8;
+}
+.issuer span{
+    margin-left: 27px;
+}
+
+.notContUl li {
+    border-bottom: 1px dashed #e1e1e1;
+    overflow: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

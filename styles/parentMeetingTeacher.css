@@ -1,0 +1,381 @@
+.parentTop {
+    overflow: auto;
+    padding-bottom: 14px;
+    padding-top: 10px;
+}
+
+.parentTopLeft {
+    float: left;
+    font-size: 18px;
+}
+
+.parentTopRight {
+    cursor: pointer;
+    float: right;
+}
+
+.parentTab {
+    margin-bottom: 100px;;
+}
+
+.parentTab table {
+    width: 100%;
+}
+
+.parentTab table tr {
+    text-align: center;
+}
+
+.parentTab table tr th {
+    background: #ebebeb;
+    color: #515151;
+    height: 35px;
+}
+
+.parentTab table tr td {
+    border-bottom: 1px dashed #ddd;
+    color: #585858;
+    height: 106px;
+    line-height: 2;
+    padding-bottom: 10px;
+    padding-top: 10px;;
+}
+
+.parentWord {
+    color: #000;
+}
+
+.parentTdBar {
+    color: #fff !important;
+    float: right;
+    margin-right: 36px;
+    margin-top: -9px;
+}
+
+.parentTdBar1 {
+    background: url("../images/7_9.png") no-repeat scroll 0 0;
+    font-size: 12px;
+    height: 33px;
+    line-height: 29px;
+    width: 117px;
+}
+
+.parentTdBar1 span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.parentTdBar2 {
+    background: url("../images/8.png") no-repeat scroll 0 0;
+    font-size: 12px;
+    height: 33px;
+    line-height: 29px;
+    margin-top: -4px;
+    width: 117px;
+}
+
+.parentTdWord {
+    text-align: left;
+    padding-left: 36px;
+}
+
+.parentTdWord span {
+    color: red;
+}
+
+/*发布家长会*/
+.releaseInput {
+    margin-top: 30px;
+}
+
+.releaseInput div {
+    margin-bottom: 30px;
+}
+
+.releaseDiv1 label {
+    *float: left;
+    *margin-top: 5px;
+}
+
+.releaseDiv1 input {
+    *float: left;
+}
+
+.typeText {
+    height: 30px;
+    line-height: 30px;
+    width: 649px;
+}
+
+.releaseDivDate {
+    *padding-top: 20px;;
+}
+
+.releaseDivDate input {
+    width: 83px;
+    height: 30px;
+    line-height: 30px;
+    *float: left;
+}
+
+.releaseDivDate label {
+    *float: left;
+    *margin-top: 5px;
+}
+
+.releaseDivDate span {
+    *float: left;
+    *margin-top: 5px;;
+}
+
+.dateInput1 {
+    margin-right: 15px;
+}
+.releaseDiv3{
+    clear: both;
+}
+.releaseDiv3 label{
+    float: left;
+}
+.contTe{
+    float: right;
+    height: 400px;
+    width: 651px;
+}
+
+.releaseDiv4{
+    text-align: center;
+}
+.releaseDiv4 img{
+    margin-top: 80px;
+}
+
+/*会议内容*/
+.strongWord{
+    color: red;font-weight: 500;
+}
+.commentCont{
+    margin-top: 30px;;
+}
+.commentCont img{
+    cursor: pointer;
+}
+.commentImg{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.commentImg span{
+    color: #999;
+}
+.commentImg > span{
+    margin-right: 10px;
+}
+.commS1{
+    cursor: pointer;
+}
+.commS2 {
+    cursor: pointer;
+}
+.commS2 > img {
+    vertical-align: inherit;
+}
+.commentImg img{
+  vertical-align: middle;
+}
+.commentPeople{
+    margin-bottom:20px;
+}
+.commentPeople img{
+    margin-right: 5px;
+}
+.commentUl{
+    margin-top: 10px;
+}
+.commentUl li{
+    clear: both;
+    margin-bottom: 10px;
+    *clear: both;
+}
+
+.commentUlLeft{
+    float: left;
+}
+.commentUlRight{
+    float: left;
+    margin-left:15px;
+    margin-bottom: 10px;
+    *margin-bottom: 0px;
+    width: 579px;
+    *width: 555px;
+    min-height:60px;
+    *min-height:70px;
+}
+.commentUlRight span{
+    color: #999;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.commentUlRight img{
+  vertical-align: middle;
+    margin-right: 5px;;
+}
+.commentUl2{
+    clear: both;
+    margin-left: 46px;
+}
+.commentUl2 li{
+    clear: both;
+}
+.chatCont{
+    *overflow: auto;
+    *min-height: 50px;;
+
+}
+#show{
+    min-height: 30px;
+    line-height: 30px;
+    width: 413px;
+    border:1px solid #ccc;
+}
+.criticism{
+    min-height: 40px;
+    line-height: 40px;
+    border:1px solid #ccc;
+}
+.meetingDiv{
+    margin-top: 15px;
+}
+.chatCont p{
+    float: left;
+    border: 1px solid #f0542c;
+    background-color: #f0542c;
+    color: #fff;
+    border-left: 0px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -1px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.chatCont img{
+    *margin-top: 10px;;
+}
+.chatCont span{
+    border: 1px solid #ccc;
+    float: left;
+    height: 30px;
+    line-height: 37px;
+    margin-left: -1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    cursor: pointer;
+    margin-left:0;
+}
+.criticismBrow{
+    height: 40px !important;
+    line-height:45px !important;
+}
+.publish{
+    border: 1px solid #dcdcdc !important;
+    background-color: #dcdcdc !important;
+    height:40px !important;
+    color: #565656 !important;
+    line-height: 40px !important;
+}
+/*qq标签样式  开始*/
+
+
+.com_form {
+    width: 100%;
+    overflow: auto;
+}
+.qqFace {
+    background: #fff;
+    padding: 2px;
+    border: 1px #dfe6f6 solid;
+}
+
+.qqFace table td {
+    padding: 0px;
+}
+
+.qqFace table td img {
+    cursor: pointer;
+    border: 1px #fff solid;
+}
+
+.qqFace table td img:hover {
+    border: 1px #0066cc solid;
+}
+
+/*qq标签样式  结束*/
+.commentUlRight span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.meetingPaging{
+    margin-top:100px;
+    clear: both;
+}
+.meetingPL{
+    float: left;
+}
+.meetingPR{
+    float: left;
+    margin-left:10px;
+}
+/*实到家长*/
+.meetTitle{
+    margin-top:20px;
+    overflow: auto;
+    margin-bottom:20px;
+}
+
+.meetTitle ul li{
+    border: 0 solid #fff;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 25px;
+    text-align: center;
+    width: 74px
+}
+.meetTitle ul li a{
+    color: #747474;
+}
+.meetTitle ul li a:hover{
+    color: #000;
+}
+
+.notTitBorder {
+    border-bottom: 2px solid #fd802d !important;
+}
+.meetTitle span{
+    color: red;
+}
+
+.meetCon ul li{
+    float: left;
+    height: 201px;
+    margin-right: 13px;
+    width: 103px;
+}
+.meetClose{
+    float: right;
+}
+.meetClose img{
+    cursor: pointer;
+}
+.meetWord{
+    text-align: center;
+    width: 85px;
+}
+
+.meetWord2{
+    color: #585858;
+    font-size:12px;
+    margin-left:4px;
+}

@@ -1,0 +1,145 @@
+/*创建成绩单*/
+.reportInput {
+    margin-top: 30px;
+}
+
+.reportInput div {
+    margin-bottom: 30px;
+}
+
+.reportInput label {
+    *float: left;
+    *margin-top: 5px;
+}
+
+.reportDiv1 {
+    overflow: auto;
+}
+
+.reportLeft {
+    float: left;
+}
+
+.typeText {
+    width: 614px;
+    *width: 610px;
+    height: 30px;
+    line-height: 30px;
+    *margin-left: 3px;
+}
+
+.reportRight {
+    float: right;
+    margin-top: 6px;
+    *margin-top: 8px;
+}
+
+.reportRight span {
+    color: red;
+}
+
+.reportDiv2 {
+    clear: both;
+}
+
+.reportLeft2 {
+    float: left;
+}
+
+.reportRight2 {
+    float: right;
+    height: 400px;
+    width: 628px;
+}
+
+.reportImg {
+    text-align: center;
+}
+
+.reportImg img {
+    margin-top: 80px;
+}
+
+/*编辑成绩单*/
+.editRepoCont {
+
+}
+
+.editRepoContP1 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.editRepoContP2 {
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.editRepoContP2 span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.editRepoQuery {
+    color: #333;
+}
+
+.editRepoQuery span {
+    color: #000 !important;
+}
+.contain{
+    *margin-left: 140px;
+}
+
+.editRepoQuery select {
+    margin-right: 30px;
+    width: 100px;
+    *height: 28px;
+    *position: absolute;
+}
+.editRepoTab  table{
+    width: 93%;
+    margin-top: 29px;
+    text-align: center;
+    float: left;
+}
+.editRepoTab table  tr{
+    border: 1px solid #ededed;
+    height: 40px;
+}
+.editRepoTab table  tr th img{
+    position: absolute;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.editRepoTab table  tr th{
+    background-color: #ededed;
+    color: #505050;
+
+}
+.editRepoTab table tr td{
+    color: #585858;
+    border: 1px solid #ededed;
+}
+.editThImg{
+    float: right;
+    width: 43px;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+    vertical-align: initial;
+    padding-top: 40px;
+}
+.explainDiv{
+    clear: both;
+    padding-top: 20px;
+    color: #585858;
+}
+.submitImg{
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.submitImg img{
+
+}

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>作业管理</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/taskManageTeacher.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery.placeholder.js"></script>
+</head>
+<body> 
+<!--头部导航条-->
+<div class="navigationBar">
+    <div class="nevDiv">
+        <ul class="nevLeft">
+            <li><a href="classSpaceTeacher.html">首页</a><span>|</span></li>
+            <li>新闻<span>|</span></li>
+            <li>直播<span>|</span></li>
+            <li>1对1辅导<span>|</span></li>
+            <li>云课堂<span>|</span></li>
+            <li>云资源</li>
+        </ul>
+        <ul class="nevRight">
+            <li>Oregano,</li>
+            <li>个人空间</li>
+            <li>班级空间</li>
+            <li>教学空间</li>
+            <li><a href="index.html"><img src="images/1.png">退出</a></li>
+        </ul>
+    </div>
+</div>
+<!--logo-->
+<div class="logo">
+    <div class="logoLeft"><img src="images/1_2.1.png"></div>
+    <div class="logoWord">
+        <div class="className">小学2012级（2）班</div>
+        <div class="classSwitch" style="color: #999">[切换]</div>
+    </div>
+    <div class="logoRight">
+        <img src="images/1_3.png">
+    </div>
+</div>  
+<!--内容区导航条-->
+<div class="contNavigationBar">
+    <ul class="am-nav am-nav-tabs">
+        <li class=""><a href="classSpaceTeacher.html">班级首页</a></li>
+        <li class=""><a href="personnelManageTeacher.html">人员管理</a></li>
+        <li class=""><a href="editTestQinTeacher.html">考勤管理</a></li>
+        <li class="am-active"><a href="taskManageTeacher.html">作业管理</a></li>
+        <li class=""><a href="achievementManageTeacher.html">成绩管理</a></li>
+        <li class=""><a href="leaveManageTeacher.html">请假管理</a></li>
+        <li class=""><a href="classNoticeTeacher.html">班级公告</a></li>
+        <li class=""><a href="parentMeetingTeacher.html">家长会</a></li> 
+    </ul>
+    <div class="clear:both;"></div>
+</div>
+<div class="content">
+    <div class="logoTwo">
+        <img src="images/7_7.png">
+    </div>
+    <div class="contNotice">
+        <div class="contNoticeLeft">
+            <ul class="taskContTop">
+                <li class="tasCon1">
+                    <span>关键词：</span>
+                    <input type="text" placeholder="请输入关键词" class="keyWord">
+                </li>
+                <li class="tasCon2">
+                    <span>起始日期：</span>
+                    <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'d4312\')||\'2020-10-01\'}'})"
+                           class="date" id="d4311">
+                    <span>---</span>
+                    <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'d4311\')}',maxDate:'2020-10-01'})"
+                           class="date" id="d4312">
+                </li>
+                <li class="tasCon3">
+                    <select>
+                        <option>全部学科</option>
+                        <option>语文</option>
+                    </select>
+                    <img src="images/5_6.png">
+                </li>
+            </ul>
+            <div class="taskContTit">
+                <ul>
+                    <li class="notTitBorder"><a href="#">全部作业</a></li>
+                    <li class=""><a href="#">我布置的</a></li>
+                </ul>
+                <div><a href="taskManageAssignWorkTeacher.html"><img src="images/7_8.png"></a></div>
+            </div>
+            <div class="taskContent">
+                <ul class="taskContentUl">
+                    <li>
+                        <div class="taskContentDiv">
+                            <p class="taskContentP1">5月18日 <span>07:30</span></p>
+
+                            <p class="taskContentP2">星期二</p>
+                        </div>
+                        <div class="taskContentWord">
+                            <a href="taskManageSeeTeacher.html">
+                                <div class="taskContentImg1">
+                                    <img src="images/8_1.png">
+
+                                    <p>数学</p>
+                                </div>
+                            </a>
+                            <span class="taskContentW1">
+                             <ul>
+                                 <li class="taskLi1">第一章_整式的加减</li>
+                                 <li class="gaibFont">重点复习本周所讲课堂内容，这几节课是本章重点。</li>
+                                 <li><span class="gaibFont">发布人：</span><span class="gaibColor">郭星宇（Gxingyu）老师</span>
+                                 </li>
+                                 <li>
+                                     <a href="taskManageConsultNumTeacher.html">
+                                         <span class="gaibFont">已查阅：</span>
+                                         <span class="gaibColor2">20</span>
+                                         <span class="gaibFont" style="margin-left: 8px;">未查阅：</span>
+                                         <span class="gaibColor">40</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                          </span>
+                            <a href="#"><img src="images/8_2.png" class="taskContentImg2"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="taskContentDiv">
+                            <p class="taskContentP1">5月18日 <span>07:30</span></p>
+
+                            <p class="taskContentP2">星期二</p>
+                        </div>
+                        <div class="taskContentWord">
+                            <a href="taskManageSeeTeacher.html">
+                                <div class="taskContentImg1">
+                                    <img src="images/8_1.png">
+
+                                    <p>数学</p>
+                                </div>
+                            </a>
+                            <span class="taskContentW1">
+                             <ul>
+                                 <li class="taskLi1">第一章_整式的加减</li>
+                                 <li class="gaibFont">重点复习本周所讲课堂内容，这几节课是本章重点。</li>
+                                 <li><span class="gaibFont">发布人：</span><span class="gaibColor">郭星宇（Gxingyu）老师</span>
+                                 </li>
+                                 <li>
+                                     <a href="taskManageConsultNumTeacher.html">
+                                         <span class="gaibFont">已查阅：</span>
+                                         <span class="gaibColor2">20</span>
+                                         <span class="gaibFont" style="margin-left: 8px;">未查阅：</span>
+                                         <span class="gaibColor">40</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                          </span>
+                            <a href="#"><img src="images/8_2.png" class="taskContentImg2"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="taskContentDiv">
+                            <p class="taskContentP1">5月18日 <span>07:30</span></p>
+
+                            <p class="taskContentP2">星期二</p>
+                        </div>
+                        <div class="taskContentWord">
+                            <a href="taskManageSeeTeacher.html">
+                                <div class="taskContentImg1">
+                                    <img src="images/8_1.png">
+
+                                    <p>数学</p>
+                                </div>
+                            </a>
+                            <span class="taskContentW1">
+                             <ul>
+                                 <li class="taskLi1">第一章_整式的加减</li>
+                                 <li class="gaibFont">重点复习本周所讲课堂内容，这几节课是本章重点。</li>
+                                 <li><span class="gaibFont">发布人：</span><span class="gaibColor">郭星宇（Gxingyu）老师</span>
+                                 </li>
+                                 <li>
+                                     <a href="taskManageConsultNumTeacher.html">
+                                         <span class="gaibFont">已查阅：</span>
+                                         <span class="gaibColor2">20</span>
+                                         <span class="gaibFont" style="margin-left: 8px;">未查阅：</span>
+                                         <span class="gaibColor">40</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                          </span>
+                            <a href="#"><img src="images/8_2.png" class="taskContentImg2"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="taskContentDiv">
+                            <p class="taskContentP1">5月18日 <span>07:30</span></p>
+
+                            <p class="taskContentP2">星期二</p>
+                        </div>
+                        <div class="taskContentWord">
+                            <a href="taskManageSeeTeacher.html">
+                                <div class="taskContentImg1">
+                                    <img src="images/8_1.png">
+
+                                    <p>数学</p>
+                                </div>
+                            </a>
+                            <span class="taskContentW1">
+                             <ul>
+                                 <li class="taskLi1">第一章_整式的加减</li>
+                                 <li class="gaibFont">重点复习本周所讲课堂内容，这几节课是本章重点。</li>
+                                 <li><span class="gaibFont">发布人：</span><span class="gaibColor">郭星宇（Gxingyu）老师</span>
+                                 </li>
+                                 <li>
+                                     <a href="taskManageConsultNumTeacher.html">
+                                         <span class="gaibFont">已查阅：</span>
+                                         <span class="gaibColor2">20</span>
+                                         <span class="gaibFont" style="margin-left: 8px;">未查阅：</span>
+                                         <span class="gaibColor">40</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                          </span>
+                            <a href="#"><img src="images/8_2.png" class="taskContentImg2"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="taskContentDiv">
+                            <p class="taskContentP1">5月18日 <span>07:30</span></p>
+
+                            <p class="taskContentP2">星期二</p>
+                        </div>
+                        <div class="taskContentWord">
+                            <a href="taskManageSeeTeacher.html">
+                                <div class="taskContentImg1">
+                                    <img src="images/8_1.png">
+
+                                    <p>数学</p>
+                                </div>
+                            </a>
+                            <span class="taskContentW1">
+                             <ul>
+                                 <li class="taskLi1">第一章_整式的加减</li>
+                                 <li class="gaibFont">重点复习本周所讲课堂内容，这几节课是本章重点。</li>
+                                 <li><span class="gaibFont">发布人：</span><span class="gaibColor">郭星宇（Gxingyu）老师</span>
+                                 </li>
+                                 <li>
+                                     <a href="taskManageConsultNumTeacher.html">
+                                         <span class="gaibFont">已查阅：</span>
+                                         <span class="gaibColor2">20</span>
+                                         <span class="gaibFont" style="margin-left: 8px;">未查阅：</span>
+                                         <span class="gaibColor">40</span>
+                                     </a>
+                                 </li>
+                             </ul>
+                          </span>
+                            <a href="#"><img src="images/8_2.png" class="taskContentImg2"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--分页-->
+            <!--分页-->
+            <div class="paging" style="width: 718px;">
+                <ul>
+                    <li class="pagingBack"><span><</span> 上一页</li>
+                    <li class="removeBack">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li class="pagingNumber" style="color: #ccc;">. . .</li>
+                    <li>666</li>
+                    <li class="paging3Li">下一页 <span style="color: #aaa;">></span></li>
+                    <li class="pagingNumber">共666页&nbsp;&nbsp;到第<input type="text" value="1">页</li>
+                    <li><a href="#" style="margin-right: 0px">确定</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contNoticeRight">
+            <div class="rightClassInfo">
+                <!--班级-->
+                <div class="classInfo">
+                    <div>小学2012级(2)班</div>
+                    <table>
+                        <tr>
+                            <td>班级成员</td>
+                            <td>老师</td>
+                            <td>同学</td>
+                            <td>家长</td>
+                        </tr>
+                        <tr>
+                            <td>190</td>
+                            <td>10</td>
+                            <td>60</td>
+                            <td>120</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--任课老师-->
+                <div class="teach">
+                    <div><span>[设置]</span></div>
+                    <ul>
+                        <li><a href="#">语文：郭星宇(Gxingyu)老师</a></li>
+                        <li><a href="#">数学：郭星宇(Gxingyu)老师</a></li>
+                        <li><a href="#">英语：郭星宇(Gxingyu)老师</a></li>
+                        <li><a href="#">地理：郭星宇(Gxingyu)老师</a></li>
+                        <li><a href="#">历史：郭星宇(Gxingyu)老师</a></li>
+                        <li><a href="#">思想政治：郭星宇(Gxingyu)老师</a></li>
+                    </ul>
+                </div>
+                <!--热门课程-->
+                <div class="hotCurriculum">
+                    <div>热门课程</div>
+                    <ul>
+                        <li>
+                            <p><a href="#"><img src="images/2_3.png"></a></p>
+
+                            <p><a href="#" class="hotWord">零基础前端入门系列列之JQuery</a></p>
+
+                        </li>
+                        <li>
+                            <p><a href="#"><img src="images/2_4.png"></a></p>
+
+                            <p><a href="#" class="hotWord">分分钟秒杀java面试那些题</a></p>
+
+                        </li>
+                        <li>
+                            <p><a href="#"><img src="images/2_4.png"></a></p>
+
+                            <p><a href="#" class="hotWord">分分钟秒杀java面试那些题</a></p>
+
+                        </li>
+                        <li>
+                            <p><a href="#"><img src="images/2_3.png"></a></p>
+
+                            <p><a href="#" class="hotWord">零基础前端入门系列列之JQuery</a></p>
+
+                        </li>
+                    </ul>
+                    <div style="clear:both;"></div>
+                </div>
+                <!--明星讲师-->
+                <div class="starLector">
+                    <div class="starTitle">明星讲师</div>
+                    <ul>
+                        <li>
+                            <div class="starImg"><img src="images/2_2.png"></div>
+                            <div class="starWord">
+                                <p><span>Gxingyu</span>老师(小学语文)</p>
+
+                                <p>8年教龄，5门在线课程</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="starImg"><img src="images/2_2.png"></div>
+                            <div class="starWord">
+                                <p><span>Gxingyu</span>老师(小学语文)</p>
+
+                                <p>8年教龄，5门在线课程</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="starImg"><img src="images/2_2.png"></div>
+                            <div class="starWord">
+                                <p><span>Gxingyu</span>老师(小学语文)</p>
+
+                                <p>8年教龄，5门在线课程</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="starImg"><img src="images/2_2.png"></div>
+                            <div class="starWord">
+                                <p><span>Gxingyu</span>老师(小学语文)</p>
+
+                                <p>8年教龄，5门在线课程</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="starImg"><img src="images/2_2.png"></div>
+                            <div class="starWord">
+                                <p><span>Gxingyu</span>老师(小学语文)</p>
+
+                                <p>8年教龄，5门在线课程</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div style="clear: both"></div>
+</div>
+<script>
+    $(function () {
+        //让input、textarea中的placeholder支持IE
+        $('input,textarea').placeholder({customClass: 'my-placeholder'});
+    });
+</script>
+<div class="footer">
+    <div class="footConcave">
+        <img src="images/2_7.png">
+        <div class="footUl">
+            <ul>
+                <li>
+                    <p class="footUlL">联系方式</p>
+                    <p>电话：010-82530000,82530000</p>
+                    <p>传真：010-82530000</p>
+                    <p>邮编：100084</p>
+                    <p>技术支持：互联天下科技发展(深圳)有限公司</p>
+                    <p>主办合作：陕西省渭南市教育局</p>
+                </li>
+                <li>
+                    <div class="scan1"><img src="images/2_8.png"></div>
+                    <div class="scan2">
+                        <p class="fontWeight">扫描下载官方APP</p>
+                        <p><a href="#"><img src="images/2_9.png"></a></p>
+                        <p><a href="#"><img src="images/3.png"></a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="fontWeight">官方微博</p>
+                    <p><img src="images/3_1.png"></p>
+                    <p><a href="#"><img src="images/3_2.png"></a></p>
+                </li>
+                <li>
+                    <p class="fontWeight">官方微信</p>
+                    <p><img src="images/3_3.png"></p>
+                </li>
+                <li class="about">
+                    <p class="fontWeight">关于我们</p>
+                    <p><a href="#">合作发展</a></p>
+                    <p><a href="#">服务接口</a></p>
+                    <p><a href="#">加入我们</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>版权所有：北京飞利信科技股份有限公司</p>
+            <p>Copyrigth@2016</p>
+            <p>京ICP备00000000号-0</p>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+<script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>
+

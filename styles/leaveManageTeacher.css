@@ -1,0 +1,179 @@
+.leaveTop {
+    border-bottom: 1px solid #ededed;
+    overflow: auto;
+    padding-bottom: 14px;
+    padding-top: 10px;
+}
+
+.leaveTopLeft {
+    float: left;
+    font-size: 18px;
+}
+
+.leaveTopRight {
+    cursor: pointer;
+    float: right;
+}
+
+.leaveInput {
+    margin-top: 10px;
+}
+
+.leaveInput ul {
+    overflow: auto;
+    padding-bottom: 26px;
+    padding-top: 20px;
+}
+
+.leaveInput ul li:first-child {
+    margin-left: 0 !important;
+}
+
+.leaveInput ul li {
+    float: left;
+    margin-bottom: 22px;
+
+}
+
+.leaveInput ul li input {
+    height: 30px;
+    line-height: 30px;
+    width: 231px;
+    *width: 221px;
+    *float: left;
+}
+
+.leaveInput ul li select {
+    width: 234px;
+    *width: 225px;
+    *height: 25px;;
+}
+
+.leaveInput ul li img {
+    vertical-align: bottom;
+}
+
+.leaveInput ul li span {
+    *margin-top: 4px;
+    *float: left;;
+}
+
+.date {
+    text-align: right;
+     margin-left: 95px;
+    *margin-left: 82px;
+}
+
+.date input {
+    width: 100px !important;
+}
+.leaveInputS{
+    *margin-left: 40px;
+}
+.leaveTopRight {
+    float: right;
+}
+
+.leaveTopRight span {
+    margin-left: 9px;
+    color: #814c5b;
+}
+
+.leaveTopRight img {
+    vertical-align: bottom;
+}
+
+.leaveStateLi span {
+    margin-left: 14px;
+   *margin-top: 1px !important;
+}
+
+.leaveTypeLi {
+    *margin-left: 40px;
+}
+
+.leaveTypeLi span {
+    margin-left: 124px;
+    *margin-left: 110px;
+    *margin-top: 1px !important;
+}
+.leaveTypeLi select{
+    width: 188px !important;
+}
+.leaveTypeLi img{
+    *float: right;
+    *margin-top: -25px;
+    *width: 34px;;
+}
+.leaveContTab{
+
+}
+.leaveContTab table{
+    margin-bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+.leaveContTab table tr{
+
+}
+.leaveContTab table tr th{
+    background: #ebebeb;
+    color: #515151;
+    height: 35px;
+}
+.leaveContTab table tr td{
+    border-bottom: 1px dashed #ddd;
+    color: #585858;
+    height: 106px;
+    line-height: 2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.leaveTabTdL{
+    float: left;
+}
+.leaveTabTdL img{
+    margin-top: 9px;;
+}
+.leaveUlR{
+    float: left;
+    margin-left: 30px;
+    width: 202px;
+    text-align: left;
+}
+.leaveUlR span{
+    color: red;
+    margin-left: 8px;;
+}
+
+.leaveLiWord{
+    color: #000;
+}
+
+.leaveUlR  li {
+    line-height: 2;
+}
+.leaveTdImg p{
+    margin-bottom: 5px;;
+    *margin-bottom: 15px;;
+}
+/*统计汇总*/
+.leavePoolTab{
+    margin-top: 30px;;
+}
+.leavePoolTab table{
+    color: #585858;
+    margin: 0 auto;
+    width:353px
+}
+.leavePoolTab table tr{
+    height: 30px;
+}
+.leavePoolTab table tr td{
+
+}
+.leavePoolTab table tr td span{
+    color: #000 !important;
+    float: right;
+    margin-right: 10px;;
+}

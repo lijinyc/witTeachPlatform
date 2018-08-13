@@ -1,0 +1,49 @@
+classSpaceTeacher.html班级空间（老师）
+
+classNoticeTeacher.html 班级公告(老师)
+
+classReleaseNoticeTeacher.html 班级公告》发布公告（老师）
+
+classNoticeDetailsTeacher.html 班级公告》发布公告》公告详情（老师）  css写在发布公告(老师)对应的css文件中
+
+taskManageTeacher.html 作业管理
+
+taskManageAssignWorkTeacher.html 作业管理》布置作业   css写在作业管理对应的css文件中
+
+taskManageSeeTeacher.html  作业管理》查看作业   css写在作业管理对应的css文件中
+
+taskManageConsultNumTeacher.html 作业管理》 查阅人数   css写在作业管理对应的css文件中
+
+personnelManageTeacher.html 人员管理
+
+personnelParentInfoT.html 人员管理 》家长信息
+
+personnelClassmateTeacher.html 人员管理 》同班老师
+
+personnelInviteJoinTeacher.html 人员管理 》邀请加入
+
+testQinManageTeacher.html 考勤管理
+
+foundTestQinTeacher.html 考勤管理》创建考勤  css写在考勤管理对应的css文件中
+
+editTestQinTeacher.html 考勤管理》编辑考勤  css写在考勤管理对应的css文件中
+
+seeResultTeacher.html 考勤管理》查看结果 css写在考勤管理对应的css文件中
+
+seeCountPoolTeacher.html  考勤管理》统计汇总
+
+achievementManageTeacher.html 成绩管理  css写在考勤管理对应的css文件中（因为成绩管理的首页和考勤管理的首页样式基本上一样）
+
+establishReportTeacher.html 创建成绩单  css写在achievementManageTeacher.css文件中
+
+editReportTeacher.html 编辑成绩单 css写在achievementManageTeacher.css文件中
+
+leaveManageTeacher.html 请假管理
+
+leaveCountPoolTeacher.html 请假管理》统计汇总
+
+parentMeetingTeacher.html 家长会
+
+parentMeetingReleaseT.html 家长会》发布家长会
+
+parentMeetingContTeacher.html 家长会》会议内容  css和班级公告》公告详情基本上一样，所有写在对应的发布公告(老师)的css文件中（部分不同的css写在家长会对应的css中）

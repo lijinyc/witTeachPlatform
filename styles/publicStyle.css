@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/*li {*/
+/*cursor: pointer;*/
+/*}*/
+
+a, input, select, textarea {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+button {
+    outline: none;
+    outline: 0;
+    filter: chroma(color=#000000);
+}
+
+img {
+    border: 0 none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 1200px;
+}
+
+select {
+    height: 34px;
+    line-height: 34px;
+}
+
+/*头部导航条*/
+.navigationBar {
+    background-color: #342342;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nevDiv {
+    margin: 0 auto;
+    width: 1000px;
+    overflow: auto;
+}
+
+.nevDiv ul li {
+    float: left;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.nevDiv span {
+    padding-left: 10px;
+}
+
+.nevDiv a {
+    color: #fff;
+}
+
+.nevLeft {
+    float: left;
+}
+
+.nevRight {
+    float: right;
+}
+
+.nevRight img {
+    margin-right: 8px;
+    vertical-align: middle;
+    margin-top: -3px;
+    *margin-top: 0px;
+}
+
+/*logo内容*/
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    /*margin-top: 10px;*/
+    height: 131px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.logoLeft {
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.logoWord {
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    text-align: center;
+}
+
+.className {
+    font-size: 16px;
+    font-weight: 600;
+    color: #585858;
+}
+
+.classSwitch a {
+    color: #999;
+}
+
+.logoRight {
+    float: right;
+}
+
+/*第二个 导航条*/
+.contNavigationBar {
+    clear: both;
+    margin: 0 auto;
+    width: 1000px
+}
+
+.contNavigationBar ul {
+    /*margin-left: 10px;*/
+}
+
+.contNavigationBar ul li {
+    float: left;
+    padding-top: 8px;
+}
+
+.contNavigationBar a {
+    color: #666;
+    font-weight: 600;
+}
+
+.logoTwo {
+    margin-top: 20px;
+}
+
+.am-nav:after, .am-nav:before {
+    content: " ";
+    display: table
+}
+
+.am-nav:after {
+    clear: both
+}
+
+.am-nav > li {
+    padding-left: 10px;
+}
+
+.am-nav > li > a {
+    position: relative;
+    display: block;
+    padding: .4em 1em;
+    border-radius: 0;
+    height: 28px;
+    line-height: 28px;
+}
+
+.am-nav > li > a:hover {
+    font-weight: 600;
+    color: #000;
+}
+
+/*第二个导航条底部的线*/
+.am-nav-tabs {
+    border-bottom: 1px solid #ddd;
+    *height: 47px;
+}
+
+.am-nav-tabs > li {
+    float: left;
+    margin-bottom: -1px
+}
+
+.am-nav-tabs > li.am-active > a, .am-nav-tabs > li.am-active > a:focus, .am-nav-tabs > li.am-active > a:hover {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default
+}
+
+.am-active a {
+    color: #000 !important;
+    cursor: pointer !important;
+}
+
+/*底部*/
+.footer {
+    background-color: #efefef;
+}
+
+.footConcave {
+    margin: 100px auto 0;
+    width: 1030px;
+    overflow: auto;
+}
+
+.footConcave img {
+    vertical-align: text-top;
+}
+
+.footUl {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.footUlL {
+    font-weight: 600;
+}
+
+.footUl p {
+    line-height: 1.7;
+}
+
+.footUl li {
+    float: left;
+    cursor: default;
+    margin-right: 64px;
+}
+
+.scan1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.scan2 {
+    float: left;
+}
+
+.about {
+    margin-right: 0 !important;
+}
+
+.copyright {
+    color: #b7b7b7;
+    clear: both;
+    margin: 18px 50px 30px;
+}
+
+.copyright p {
+    line-height: 1.7;
+}
+
+/*字体变粗*/
+.fontWeight {
+    font-weight: 600;
+}
+
+/*登录、注册公共样式*/
+.logLogoLeft {
+    margin: 0px auto;
+    position: relative;
+    width: 1200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logLogoLeCont {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.logLLP1 {
+    float: left;
+}
+
+.logLLP2 a {
+    float: left;
+    font-size: 17px;
+    font-weight: 600;
+    color: #585858;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: blink;
+}
+
+/*登录和注册底部版权*/
+.botCopyright {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+.botCopyCont {
+    margin: 30px auto 0;
+    width: 1000px;
+    text-align: center;
+    color: #717171;
+}
+
+.botCopyCont p {
+    line-height: 2.5;
+}
+
+/*分页开始*/
+.paging {
+    margin: 20px auto 5px;
+    width: 615px;
+}
+
+.paging ul {
+    text-align: center;
+    margin: 2px 0;
+}
+
+.paging ul li {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: inline;
+    list-style: outside none none;
+    margin-right: 7px;
+    padding: 3px 13px;
+    *padding: 0px 14px;
+}
+
+.paging ul li input {
+    margin-left: 5px;
+    *margin-left: 3px;
+    margin-right: 5px;
+    *margin-right: 3px;
+    text-align: center;
+    width: 30px;
+}
+
+.pagingBack {
+    background-color: #fff;
+    color: #ccc;
+    cursor: not-allowed !important;
+}
+
+.removeBack {
+    border: 1px solid #fff !important;
+    background-color: #fff !important;
+    color: #ea703c !important;
+}
+
+.pagingNumber {
+    border: 1px solid #fff !important;
+    background-color: #fff !important;
+    cursor: default !important;
+}
+
+/*分页结束*/
+
+/*left公共样式 开始*/
+.contNotice {
+    margin-top: 10px;
+}
+
+.contNoticeLeft {
+    float: left;
+    width: 700px;
+}
+
+/*left公共样式 结束*/
+
+/*right开始(班级空间  老师)*/
+/*班级*/
+.rightClassInfo {
+    width: 259px;
+    float: right;
+    *width: 259px;
+    *float: right;
+}
+
+.classInfo {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.classInfo div {
+    border-bottom: 1px solid #ccc;
+    color: #878787;
+    font-weight: 600;
+    line-height: 2.3;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.classInfo table {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.classInfo table td {
+    line-height: 2;
+    color: #a1a1a1;
+    text-align: center;
+}
+
+/*任课老师*/
+.teach {
+    margin-top: 15px
+}
+
+.teach ul li a {
+    color: #585858;
+}
+
+.teach ul li a:hover {
+    color: #0980f0;
+}
+
+a:hover {
+    color: #0980f0;
+}
+
+.teach div {
+    background: url("../images/2.png");
+    height: 52px;
+    width: 259px;
+}
+
+.teach div > span {
+    margin-right: 39px;
+    margin-top: 7px;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+}
+
+.teach ul li {
+    border-bottom: 1px dashed #e1e1e1;
+    line-height: 2.3;
+    padding-left: 11%;
+}
+
+/*热门课程*/
+.hotCurriculum {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    /*overflow: auto;*/
+    margin-top: 15px;
+    *padding-bottom: 15px;
+}
+
+.hotCurriculum div {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hotCurriculum ul li {
+    float: left;
+    margin-bottom: 15px;
+    width: 104px;
+    height: 123px;
+}
+
+.hotCurriculum ul li p {
+    text-align: left;
+    color: #585858;
+}
+
+.hotCurriculum ul li p a {
+    color: #585858;
+}
+
+.hotCurriculum ul li p a > img {
+    height: 77px;
+}
+
+.hotWord {
+    color: #585858;
+}
+
+.hotWord:hover {
+    color: #0980f0;
+}
+
+/*明星讲师*/
+.starLector ul li {
+    border-bottom: 2px solid #f5f5f5;
+    overflow: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.starLector ul li:hover {
+    background-color: #efefef;
+}
+
+.starTitle {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.starImg {
+    float: left;
+}
+
+.starWord {
+    color: #585858;
+    float: right;
+    width: 193px;
+    line-height: 1.7;
+}
+
+.starWord p > span {
+    font-weight: 600;
+}
+
+/*right结束(班级空间  老师  公告)*/
+
+/*切换标题*/
+.notTitBorder {
+    border-bottom: 2px solid #fd802d !important;
+}
+
+.notTitBorder a {
+    color: #000 !important;
+}
+
+/*子标题栏*/
+.subTitleBar {
+    border-bottom: 1px solid #d9d9d9;
+    color: #999;
+    padding-bottom: 9px;
+    padding-top: 4px;
+}
+
+.subTitleBar a span {
+    color: #999;
+}
+
+.subTitleArrow {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*取消关注、删除..公告样式（老师）弹出框 开始*/
+/*input{*/
+/**border: 0 none !important;*/
+/*}*/
+.determineFrame {
+    border: 1px solid #d1d1d1;
+    width: 395px !important;
+    background: #fff !important;
+    /*height: 157px;*/
+}
+
+.end img {
+    /*margin-left: 383px;*/
+    margin-right: 12px;
+    *margin-left: 410px;
+}
+
+.key {
+    margin-top: 10px
+}
+
+.key span {
+    float: left;
+    height: 50px;
+    line-height: 30px;
+    margin-top: -10px;
+    *margin-top: -30px;
+    color: #8d8d8d;
+    width: 408px;
+}
+
+.bodyCont {
+    margin-top: 49px;
+    margin-bottom: 18px;
+    *margin-top: 60px;
+    text-align: center;
+}
+
+.bodyCont img {
+    vertical-align: middle;
+}
+
+.bodyCont span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.bodyInput {
+    margin-right: -16px
+}
+
+.bodyInput input {
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    color: #535353;
+    float: right;
+    height: 34px;
+    line-height: 30px;
+    width: 76px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.bodyInput1 {
+    margin-left: 15px;
+}
+
+/*取消关注、删除..公告样式（老师）弹出框 结束*/
+
+/*input 中的placeholder支持IE*/
+.my-placeholder {
+    color: #aaa;
+}
+
+a:hover {
+    color: #0980f0;
+}

@@ -1,0 +1,709 @@
+.registerCon {
+    background-color: #f0f0f0;
+}
+
+.registerDiv {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+    padding-top: 50px;
+}
+
+.regUl {
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.regUl li {
+    float: left;
+    margin-left: 101px;
+    margin-bottom: 45px;
+}
+
+.regUl li p {
+    font-size: 17px;
+    line-height: 2;
+}
+.placeholderWrap {
+    position: relative;
+    display: inline-block;
+}
+
+/*注册2*/
+.regTable {
+    margin-top: 50px;
+}
+
+.regTable table {
+    margin: 0 auto 45px;
+    width: 575px;
+}
+
+.regTable table p {
+    color: #605b5b;
+    font-size: 15px;
+}
+
+.regTable table td {
+    text-align: left;
+    height: 58px;
+}
+
+.regTable table input {
+    height: 32px;
+    width: 191px;
+    line-height: 32px;
+}
+
+.regTable table span {
+    color: red;
+    *margin-top: -40px;
+}
+
+.hint {
+    color: #8c8989 !important;
+}
+
+.alreadyRead input {
+    width: 15px !important;
+}
+
+.alrRight a {
+    color: #4173a6;
+    text-decoration: underline;
+}
+
+.alrLeft {
+    float: left;
+    margin-left: 77px;
+}
+
+.alrRight {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.alrImg {
+    padding-top: 20px;
+    text-align: center !important;
+}
+.alrImg img{
+    cursor: pointer;
+}
+/*老师注册（第三步）*/
+.regSex input {
+    width: 15px !important;
+}
+
+.sexLeft {
+    float: left;
+    height: 36px;
+    margin-top: 12px;
+}
+
+.sexRight {
+    float: left;
+    height: 36px;
+    margin-right: 22px;
+    margin-top: 18px;
+}
+
+.regCheck input {
+    width: 15px !important;
+}
+
+.seniorityLef {
+    float: left;
+    margin-right: 16px;
+    *margin-right: 15px;
+}
+
+.seniorityLef input {
+    width: 100px !important;
+}
+
+.seniorityRig {
+    float: left;
+}
+
+.seniorityRig select {
+    width: 111px;
+    *width: 106px;
+    *margin-top: 5px;
+}
+
+.threeTable table input {
+    width: 307px;
+    *width: 318px;
+}
+
+.threeTable table {
+    width: 426px;
+    *width: 420px;
+}
+
+.threeImg1 {
+    margin-left: 85px;
+}
+
+.threeImg2 {
+    margin-left: 22px;
+}
+
+.regCheck {
+    padding-top: 15px;
+}
+
+
+.regCheck ul li{
+    float: left;
+    width: 111px;
+}
+.regCheck ul li input{
+    float: left;
+
+}
+.regCheck ul li p{
+    float: left;
+    margin-top: 4px;
+   /* margin-right: 30px;*/
+}
+
+
+/*.regCheck table{
+    width: 100%;
+}
+.regCheck table tr td{
+    height: 20px;
+}
+.regCheck table tr td input{
+    float: left;
+}
+.regCheck table tr td p{
+    float: left;
+    margin-top: 5px;
+}*/
+.regCheckLeft {
+    float: left;
+    height: 36px;
+}
+
+.regCheckRight {
+    float: left;
+    height: 36px;
+    margin-right: 22px;
+    margin-top: 5px;
+}
+
+.threeImg {
+    padding-top: 20px;
+}
+.teachP {
+     margin-top: -36px;
+     *margin-top: -10px;
+     position: absolute;
+}
+
+/*选择学校弹出框*/
+.key {
+    background: url("../images/5_4.png");
+    height: 40px;
+    width: 700px;
+}
+
+.key span {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    margin-left: 43%;
+    margin-top: 7px;
+    width: 72px;
+}
+
+.key a > img {
+    float: right;
+    margin-left: 230px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.key a > span {
+    float: right;
+    margin-left: 230px;
+    margin-top: 9px;
+    margin-right: -9px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reveal-modal .close-reveal-modal {
+    top: -38px !important;
+    left: -1px;
+    right: 0 !important;
+    line-height: normal !important;
+}
+
+.reveal-modal {
+    border-radius: 0px !important;
+    background: #fff !important;
+    border: 1px solid #dadada !important;
+    z-index: 1000 !important;
+}
+
+.choiceLeft {
+    float: left;
+}
+
+.choiceUl li a {
+    color: #8b8b8b;
+}
+
+.choiceUl li {
+    float: left;
+    border: 0px solid #fff;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.choUlBor {
+    border-bottom: 2px solid #21498f !important;
+}
+
+.choUlBor a {
+    color: #000 !important;
+}
+
+.choiceRight {
+    float: right;
+    margin-bottom: 40px;
+    *margin-bottom: 0px;
+}
+
+.choiceRight a {
+    text-decoration: underline;
+}
+
+.lookup {
+    clear: both;
+}
+
+.lookup input {
+    width: 285px;
+    *width: 275px;
+    height: 31px;
+    *height: 22px;
+    line-height: 31px;
+    *line-height: 22px;
+    margin-right: 12px;
+    float: left;
+}
+
+.lookup select {
+    width: 81px;
+    margin-right: 2px;
+    float: left;
+}
+
+.lookup img {
+    vertical-align: middle;
+    margin-left: 8px;
+    cursor: pointer;
+    width: 43px;
+    height: 32px;
+    *height: 26px;
+
+}
+
+.choiceTable {
+    padding-top: 20px;
+    *padding-top: 8px;
+    *clear: both;
+}
+
+.choiceTable tr td {
+    line-height: 2;
+    cursor: pointer;
+}
+
+.choiceTable img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.choiceUL1{
+   overflow: auto;
+}
+.choiceUL1 li{
+    float: left;
+    margin-bottom: 15px;
+    width: 203px;
+
+}
+
+.choiceTdUl {
+    padding-top: 30px;
+    *padding-top: 40px;
+    margin-left: 34px;
+}
+
+.choiceTdUl span {
+    /*margin-top: -5px;*/
+    float: left;
+    margin-left: 60px;
+    margin-right: 10px;
+
+}
+
+.choiceTdUl ul li {
+    float: left;
+    margin-right: 5px;
+    background-color: #d2d2d2;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.choiceTdUl ul li a {
+    color: #fff;
+}
+
+.choiceLiBack {
+    background-color: #21498f !important;
+   margin-left: 0px !important;
+}
+
+.choiceRight span {
+    color: #8b8b8b;
+}
+
+/*创建学校弹出框*/
+.setUpTable table {
+    margin: 0 auto;
+}
+
+.setUpTable tr td {
+    height: 58px;
+}
+
+.setUpTable input {
+    width: 307px;
+    height: 32px;
+    line-height: 32px
+}
+
+.setUpTable table p {
+    text-align: center;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+.setUpTable span {
+    color: red;
+    margin-right: 4px;
+}
+
+.setUpTable select {
+    width: 101px;
+}
+
+.tckWord {
+    margin-left: 10px;
+    color: #000 !important;
+    *margin-top: -5px;
+}
+
+/*注册成功*/
+.regSuc {
+    margin-top: 90px;
+    color: #605b5b;
+}
+
+.regSuc img {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.regSuc span {
+    font-size: 36px;
+}
+
+.regSucWord2 {
+    margin: 70px auto;
+    font-size: 12px;
+}
+
+/*select框高在IE中兼容*/
+.container select {
+    height: 36px;
+    width: 112px;
+    *width: 92px;
+    *margin-left: -5px;
+}
+
+.select_border {
+    *background: #fff;
+    *border: 1px solid #ccc;
+    *padding: 8px;
+    float: left;
+    width: 90px;
+}
+
+.container {
+    *border: 0;
+    *position: relative;
+    *width: 83px;
+    *height: 18px;
+    *overflow: hidden;
+    *background: #fff;
+}
+
+.seniorityRigDiv {
+    float: left;
+    margin-top: 8px;
+    color: #605b5b;
+}
+
+.seniorityRigSpan {
+
+}
+
+/*注册第三步（学生）*/
+.date input {
+    width: 266px !important;
+    *width: 278px !important;
+    margin-right: 4px;
+}
+
+.date img {
+    width: 33px;
+    height: 32px;
+}
+
+.studentLef {
+    float: left;
+    margin-right: 16px;
+    *margin-right: 15px;
+}
+
+.studentLef select {
+    width: 107px;
+    *width: 113px;
+    margin-top: 8px;
+}
+
+.studentLefSpan {
+    margin-top: 21px;
+    float: left;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.studentRig {
+    float: left;
+}
+
+.studentRigSpan {
+    float: left;
+    margin-top: 16px;
+    color: #605b5b;
+    margin-left: 13px;
+    *margin-left: 13px;
+}
+
+.studentRig select {
+    *width: 113px;
+    *margin-top: 16px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 6px;
+    width: 104px;
+}
+
+.studentImg1 {
+    margin-left: 101px;;
+    *margin-left: 88px;;
+}
+
+.studentImg2 {
+    margin-left: 26px;
+    *margin-left: 36px;
+}
+
+.studentImg {
+    padding-top: 30px;
+}
+
+.studentSel {
+    *border: 1px solid #ccc;
+    line-height: 30px;
+    margin: -1px;
+    height: 32px;
+    width: 108px !important;
+    *width: 108px !important;
+}
+
+.studentBorder {
+    *background: #fff;
+    *border: 1px solid #ccc;
+    *padding-top: 6px;
+    *padding-bottom: 0px;
+    *padding-right: 0px;
+    *padding-left: 5px;
+    float: left;
+    margin-right: -2px !important;
+    *margin-left: -14px !important;
+    margin-top: 7px;
+}
+
+.studentCon {
+    *border: 0;
+    *position: relative;
+    *height: 20px;
+    *width: 105px;
+    *overflow: hidden;
+    *background: #fff;
+}
+
+/*第三步（家长）*/
+.regParentTable table {
+    width: 505px;
+    *width: 525px;
+}
+
+.relation1 img {
+    vertical-align: middle;
+    height: 31px;
+    cursor: pointer;
+    margin-right: 5px;
+    *vertical-align: text-bottom;
+}
+
+.relationSelect p {
+    float: left;
+    margin-top: 14px;
+}
+
+.relationSelect select {
+    width: 206px;
+    *width: 215px;
+    margin-left: 15px;
+    *margin-left: 20px;
+    margin-top: 10px;
+}
+
+.relationInput input {
+    float: left;
+    width: 202px !important;
+    *width: 211px !important;
+    margin-left: 105px;
+    *margin-left: 110px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.relationPrompt p {
+    text-align: center;
+}
+
+.relationDisplay2 {
+    display: none;
+}
+
+.relatIn {
+    display: none;
+}
+
+.plusDisplay {
+    display: block;
+}
+
+.border2 {
+    *background: #fff;
+    *border: 1px solid #ccc;
+    *padding-top: 0px;
+    *padding-bottom: 3px;
+    *padding-right: 0px;
+    width: 90px;
+    *width: 232px;
+    float: left;
+    margin-right: 8px;
+}
+
+.container2 {
+    *border: 0;
+    *position: relative;
+    *width: 200px;
+    *height: 35px;
+    *overflow: hidden;
+    *background: #fff;
+}
+
+/*关联孩子（弹出框）*/
+.parentKup {
+    margin: 0 auto;
+    width: 340px;
+}
+
+.parentKup input {
+    margin: 0 auto;
+    height: 29px !important;
+    line-height: 29px !important;
+}
+.parentImg{
+    *height: 32px !important;
+}
+.parentTable table {
+    background-color: #fff;
+    border-collapse: collapse;
+    line-height: 2;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.parentTable table td {
+    color: #585858;
+    line-height: 2.5;
+}
+
+.parentTable table tr {
+    line-height: 2.5;
+}
+
+.cloneDisplay {
+    display: none;
+}
+/*找回密码1*/
+.forgetTable{
+    text-align: center;
+}
+.forgetTable table{
+    width: 320px;
+}
+.forgetTable table input{
+   width: 210px;
+}
+.forgetSpan span{
+    color:#605b5b !important;
+}
+/*找回密码2*/
+.forgetTable2 table{
+  width: 400px;
+}
+.forgetTable2 img{
+    vertical-align: middle;
+    cursor:pointer;
+}
+/*找回密码3*/
+.forgetTable3 table{
+  width: 400px;
+}
+.forgetTable3 input{
+    width: 240px !important;
+}

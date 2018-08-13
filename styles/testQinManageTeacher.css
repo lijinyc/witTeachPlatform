@@ -1,0 +1,317 @@
+.testQTop {
+    border-bottom: 1px solid #ededed;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+.testQTopLeft {
+    float: left;
+    font-size: 18px;
+}
+
+.testQTopRight {
+    float: right;
+    cursor: pointer;
+}
+
+.testQInput {
+    margin-top: 10px;
+}
+
+.testQInput ul {
+    overflow: auto;
+    padding-bottom: 26px;
+    padding-top: 20px;
+}
+
+.testQInput ul li:first-child {
+    margin-left: 0 !important;
+}
+
+.testQInput ul li {
+    float: left;
+    margin-left: 35px;
+    *margin-left: 39px;
+}
+
+.testQInput ul li input {
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    *float: left;
+}
+
+.date input {
+    width: 100px !important;
+}
+
+.date img {
+    cursor: pointer;
+}
+
+.dateEnd {
+    *margin-right: 10px;
+}
+
+.testQInput ul li span {
+    *float: left;
+    *margin-top: 5px;
+}
+
+.testQInput ul li img {
+    vertical-align: bottom;
+    *vertical-align: inherit;
+}
+
+.pool {
+    padding-top: 5px;
+}
+
+.pool img {
+    float: left;
+}
+
+.pool span {
+    float: left;
+    *margin-top: -5px;
+    margin-left: 9px;
+    color: #814c5b;
+}
+
+.testQContTab table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.testQContTab table tr th {
+    background: #ebebeb;
+    height: 35px;
+    color: #515151;
+}
+
+.testQContTab table tr td {
+    height: 106px;
+    color: #585858;
+    line-height: 2;
+    border-bottom: 1px dashed #ddd;
+}
+
+.testQContTab table tr td p a {
+    color: #814c5b;
+}
+
+.modify {
+    margin-right: 7px;
+}
+
+/*创建考勤*/
+.subCont {
+    margin-top: 30px;
+}
+
+.subCont table {
+    margin: 0 auto;
+}
+
+.subCWord {
+    float: right;
+    margin-right: 10px;
+}
+
+.subCont table tr td {
+    height: 70px;
+}
+
+.subCont table tr td input {
+    height: 30px;
+    line-height: 30px;
+}
+
+.subContLeft {
+    float: left;
+}
+
+.subContLeft img {
+    vertical-align: middle;
+}
+
+.subContRight {
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+    text-align: center !important;
+    color: #585858;
+}
+
+.subContR1 {
+    font-weight: 600;
+}
+
+.subContImg {
+    text-align: center;
+    padding-top: 21px;
+}
+
+/*编辑考勤*/
+.editSign {
+    margin-top: 15px;
+}
+
+.editSign ul li {
+    float: left;
+    line-height: 4;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.editSign ul li input {
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.editSign ul li img {
+    vertical-align: middle;
+}
+
+.editSign ul li select {
+    *margin-top: 10px;
+    float: left;
+    *float: none;
+    margin-right: 6px;
+    *margin-right: 0px;
+    margin-top: 12px;
+    width: 100px;
+}
+
+.editSelect select {
+    *margin-top: 10px;
+}
+
+.editSelect image {
+    *margin-top: -20px !important;
+    cursor: pointer;
+    float: right;
+    *float: none;
+    margin-left: 8px;
+}
+
+.editSignUL1 {
+    float: left;
+}
+
+.editSignUL2 {
+    float: right;
+}
+
+.editSignUL2 span {
+    float: left;
+    margin-top: 18px;
+}
+
+.editUl {
+    clear: both;
+    padding-top: 24px;
+    *padding-top: 5px;
+}
+
+.editUl ul li {
+    float: left;
+    height: 203px;
+    margin-right: 38px;
+}
+
+.editDiv {
+    width: 109px;
+}
+
+.editLiDiv1 {
+    height: 28px;
+}
+
+.editLiDiv1 input {
+    float: left;
+    margin-top: 6px;
+    *margin-top: 2px;
+    *margin-left: -4px;
+}
+
+.editLiDiv1 img {
+    float: right;
+    margin-top: -1px;
+}
+
+.editLiDiv3 {
+    color: #585858;
+    margin-right: 29px;
+    text-align: center;
+}
+
+.editSubmit {
+    clear: both;
+    padding-top: 20px;
+}
+
+.editFlip {
+    overflow: auto;
+    width: 85px;
+}
+
+.editButLeft {
+    float: left;
+}
+
+.editButRight {
+    float: right;
+}
+
+.editSubmitImg {
+    text-align: center; 
+}
+
+/*查看结果*/ 
+.seeTitle {
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.seeCon ul li {
+    float: left;
+    height: 203px;
+    margin-right: 38px;
+}
+
+.seeConDiv3 {
+    color: #585858;
+    margin-right: 29px;
+    text-align: center;
+}
+/*成绩管理首页*/
+.achFont{
+    font-weight: 600;
+    color: #000 !important;
+}
+.testQContTab table tbody tr:hover{
+    background-color: #f6f6f6;
+}
+.testQContTab table tr td a p{
+    color: #585858;
+}
+.testQContTab table tr td a p:hover{
+    color: #0980f0 !important;
+}
+/*统计汇总*/
+.pool a{
+    color:#814c5b;
+}
+.pool a:hover{
+    color: #814c5b;
+}
+.seeCountTab table{
+    width: 584px;
+}
+ 

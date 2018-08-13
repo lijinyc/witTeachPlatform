@@ -1,0 +1,188 @@
+.loginFor{
+    background: #2c3841 url("../images/4_1.png") no-repeat scroll center center;
+    height: 394px;
+    min-width: 1200px;
+}
+.loginFor h2{
+    color: #fff;
+    font-size: 36px;
+    height: 81px;
+    line-height: 88px;
+    overflow: hidden;
+    text-align: center;
+}
+.computerImg{
+    border: 0 none;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin-right: 10px;
+}
+.inputBack{
+    float: right;
+    /*overflow: hidden;*/
+    text-indent: 30px;
+    width: 290px;
+    height: 346px;
+    margin-top: 31px;
+    *margin-top: -360px;
+    background: url("../images/i3_6.png");
+    text-align: center;
+}
+
+.loginForCont{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.inputBack table{
+    margin: 17px auto 0;
+}
+.inputBack table tr{
+    line-height: 3;
+}
+.inputBack table tr td{
+    border: 1px solid;
+    text-align: left;
+}
+.inputBack table div{
+    margin-top: 15px;
+}
+.inputBackImg1{
+    background: url('../images/i3_7.png') ;
+    width: 225px;
+    height: 44px;
+    margin: 0 auto;
+} 
+.inputBackImg2{
+    background: url('../images/3_8.png') ;
+    width: 225px;
+    height: 44px;
+    margin: 0 auto;
+}
+.inputBackImg3{
+    background: url('../images/3_9.png') ;
+    width: 99px;
+    height: 44px;
+    margin-left: 18px;
+}
+.inputBackImg1 input{
+    *float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: -9px;
+    width: 170px;
+    background-color: #b8bdbd;
+    border: 1px solid #b8bdbd;
+}
+.inputBackImg2 input{
+    *float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: -9px;
+    width: 170px;
+    background-color: #b8bdbd;
+    border: 1px solid #b8bdbd;
+}
+.inputBack label{
+    top: 11px !important;
+}
+.inputBackImg3 input{
+    *float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: -29px;
+    width: 170px;
+    background-color: #b8bdbd;
+    border: 1px solid #b8bdbd;
+}
+
+.inputBackImg3 input{
+    width: 93px !important;
+    height: 39px !important;
+}
+.inputBackImg3 label{
+    left: -14px !important;
+}
+.inputBackImg3 .formError{
+    left: 73px !important;
+}
+.wordColor span,a{
+    color: #fff;
+    text-decoration: underline;
+}
+.inputBackImg1{
+    margin-top: 34px;
+    margin-bottom: 20px;
+}
+.inputBackImg2{
+    margin-bottom: 20px;
+}
+.verificationCode{
+    /*overflow: auto;*/
+}
+.inputBackImg3{
+    float:left;
+    margin-left: 34px;
+}
+.inputBackImg3 span{
+    float: left;
+}
+.verificationCode img{
+    float: right;
+    margin-right: 63px;
+    margin-top: 10px;
+}
+.passwordType{
+    color: #fff;
+    margin-top: 5px;
+    clear: both;
+}
+.remember{
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.remember input{
+    margin-top: 5px;
+}
+.forget a{
+    float: right;
+    margin-right: 34px;
+    margin-top: 12px;
+    *margin-top: 14px;
+}
+.loginImg img{
+    margin-right: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.notRegister{
+    margin-top: 7px;
+    text-align: right;
+    margin-right: 26px;
+    color: #fff;
+}
+.placeholderWrap label {
+    color: #555;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    pointer-events: none;
+    display: block;
+}
+.inputBack label {
+    top: 11px !important;
+}
+.placeholderWrap {
+    position: relative;
+    display: inline-block;
+}
+.placeholder-changed label {
+    display: none;
+}
